@@ -1,0 +1,112 @@
+* 
+{
+	box-sizing: border-box;
+}
+
+body
+{
+	background-color:rgb(206, 212, 221);
+}
+
+h1
+{
+	text-align: center;
+}
+
+div.columnHistory p
+{
+	border: 1px solid black;
+	padding-left: 50px;
+	word-wrap: break-word;
+	font-size: large;
+}
+
+.guesses em
+{
+	color:black;
+}
+
+div.columnGuess h1
+{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: xx-large;
+}
+
+.header 
+{
+	background-color: lightsteelblue;
+	padding: 1px;
+	text-align: center;
+	height: 100px;
+}
+
+.navLinks
+{
+	overflow: scroll;
+	background-color: black;
+}
+
+.navLinks a 
+{
+	float: left;
+	display: block;
+	color: skyblue;
+	text-align: center;
+	padding: 8px 100px;
+	text-decoration: none;
+}
+  
+.navLinks a:hover 
+{
+	background-color: greenyellow;
+	color: rgb(44, 58, 66);
+}
+
+.columnGuess
+{
+	background-color: white;
+	float: left;
+	width: 70%;
+	height: 500px;
+	border-style: ridge;
+}
+
+.columnHistory
+{
+	background-color: lightgrey;
+	float: right;
+	width: 30%;
+	height: 500px;
+	border-style: inset;
+	display: block;
+	overflow-y: scroll;
+}
+  
+/* Clear floats after the columns */
+.row:after 
+{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+form
+{
+	height: 50%;
+	width: 50%;
+	padding: 80px;
+}
+  
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 600px)
+{
+	.columnGuess 
+	{
+		width: 100%;
+	}
+
+	.columnHistory
+	{
+		width: 100%;
+	}
+}

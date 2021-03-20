@@ -1,0 +1,36 @@
+body 
+{
+	margin-top: 25px;
+	margin-right: 10%;
+
+	background-color:lightgray;
+}
+
+#colorBox
+{
+	background-color: rgb(139, 163, 182);
+	background-clip: border-box;
+	padding:15px;
+	border-style: double;
+	border-width: medium;
+	border-color: white;
+	border-radius: 10px;
+}
+  
+h1
+{
+	color: rgb(32, 55, 131);
+	text-align: left;
+	padding-bottom: 25px;
+}
+
+h2, h3 
+{
+	color:green;
+	margin-left: 25px;
+}
+
+p, ul 
+{ 
+	color: rgb(43, 86, 204);
+}

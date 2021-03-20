@@ -1,0 +1,13 @@
+Paul Kummer
+CSIS 311
+9/28/20
+Module 3: Assignment 3b Stage 01
+Time to completion: 0.5 hrs
+
+[Work Log]
+10/11/20: (Start - 1:00PM) (End - 1:30PM) 0.5hrs
+
+[Assignment Summary]
+This was fairly easy, and is somewhat related to the way I initially wanted to do assign02b.
+However, assign02b required 5 different files, which I wanted to have all done in one php.
+The biggest challenge was changing the wrong files in my editor and fixing them.

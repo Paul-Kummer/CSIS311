@@ -1,0 +1,11 @@
+Paul Kummer
+CSIS 311
+9/28/20
+Module 3: Assignment 3b
+Time to completion: 2hrs
+
+[Work Log]
+10/17/20: 6:00PM-8:00PM 2hrs
+
+[Assignment Summary]
+I learned how to manipulate buttons to get values out that I wanted.

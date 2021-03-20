@@ -1,0 +1,16 @@
+Paul Kummer
+CSIS 311
+11/05/20
+Module 3: Assignment 3d
+Time to completion:  3.5hrs
+
+[Work Log]
+11/05/20: 7:30PM-10:30PM  3hrs
+11/06/20: 7:00PM-7:30PM .5hrs
+
+[Assignment Summary]
+I learned to use basic file manipulation in php. The real challenge was making
+all the variables work in correspondence with sessions. I had to go back and 
+review how sessions worked. I also had to use a private browser session, otherwise
+data from the previous session was stored. There were some variables showing up that
+i had deleted with a newer version of the code.

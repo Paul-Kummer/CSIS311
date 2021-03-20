@@ -1,0 +1,14 @@
+Paul Kummer
+CSIS 311
+9/28/20
+Module 3: Assignment 3b
+Time to completion: 3 hrs
+
+[Work Log]
+10/18/20: 3hrs
+
+[Assignment Summary]
+This step was fairly easy, I just spent most of my time tweaking the css script to get
+everything the way I wanted. There are still a few minor things I want changed, but they
+are not important enought to warrent the additional time. Essentially, I learned about 
+more of the capabilities of CSS.

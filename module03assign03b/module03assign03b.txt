@@ -1,0 +1,51 @@
+Paul Kummer
+CSIS 311
+9/28/20
+Module 3: Assignment 3b
+Time to completion: 13.5hrs
+
+--Stage 1--
+[Work Log]
+10/11/20: (Start - 1:00PM) (End - 1:30PM) 0.5hrs
+
+[Stage 1 Summary]
+This was fairly easy, and is somewhat related to the way I initially wanted to do assign02b.
+However, assign02b required 5 different files, which I wanted to have all done in one php.
+The biggest challenge was changing the wrong files in my editor and fixing them.
+
+--Stage 2--
+[Work Log]
+10/11/20: (Start - 7:30PM) (End - 10:30PM) 3hrs
+
+[Stage 2 Summary]
+I've learned that debugging is very time consuming. There isn't anything telling me where the code
+went wrong. Therefore, I end up changing some code that is working and breaking other parts. I learned
+that I needed a relative path for my include, otherwise the functions would not work. Also, I found out
+that using buttons on a form works best when trying to run code for PHP.
+
+--Stage3--
+[Work Log]
+10/17/20: 12:00PM-5:00PM 5hrs
+
+[Stage 3 Summary]
+I was able to debug much more successfully after getting advice from the meeting with the instructor.
+My ability to understand how the a persistent multidimensional array actually worked was tested.
+I had to really focus on what was going on, and I think I could improve the readability and layout if
+I decide to put more time into it.
+
+--Stage 4--
+[Work Log]
+10/17/20: 6:00PM-8:00PM 2hrs
+
+[Stage 4 Summary]
+I learned how to manipulate buttons to get values out that I wanted.
+
+--Stage 5--
+[Work Log]
+10/18/20: 3hrs
+
+[Stage 5 Summary]
+This step was fairly easy, I just spent most of my time tweaking the css script to get
+everything the way I wanted. There are still a few minor things I want changed, but they
+are not important enought to warrent the additional time. Essentially, I learned more about 
+the capabilities of CSS.

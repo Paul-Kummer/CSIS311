@@ -1,0 +1,14 @@
+Paul Kummer
+CSIS 311
+9/28/20
+Module 3: Assignment 3b
+Time to completion: 5hrs
+
+[Work Log]
+10/17/20: 12:00PM-5:00PM 5hrs
+
+[Assignment Summary]
+I was able to debug much more successfully after getting advice from the meeting with the instructor.
+My ability to understand how the a persistent multidimensional array actually worked was tested.
+I had to really focus on what was going on, and I think I could improve the readability and layout if
+I decide to put more time into it.

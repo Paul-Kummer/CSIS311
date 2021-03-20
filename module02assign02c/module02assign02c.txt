@@ -1,0 +1,13 @@
+Paul Kummer
+CSIS 311
+9/28/20
+Module 2: Assignment 2c
+Time to completion: hrs
+
+[Work Log]
+10/03/20 , (Start: 11:30) (End: 1:30) 2hrs
+
+[Assignment Summary]
+I learned how to use the date function and its formatters to output
+a date in a way that I want.
+

@@ -1,0 +1,24 @@
+Paul Kummer
+CSIS 311
+9/28/20
+Module 2: Assignment 2b
+Time to completion: 3hrs
+
+[Work Log]
+additonal time viewing materials was undocumented
+9/26/20: Start(9:00PM) End(10:30PM) 1.5hrs
+9/27/20: Start(9:30AM) End(11:00AM) 1.5hrs
+
+[Assignment Summary]
+This assignment was helpful for me to better understand how PHP and HTML can work together.
+I was able to see how the $_REQUEST was able to take an associatively linked item from an
+array and assign them to a variable, which can be used to make conversions. I also discovered
+the usefulness of videos from Lydia.com. They had a walkthrough of the unit conversion I was
+working on. They did it in a slightly different way. They used just a PHP file instead of using
+HTML that called a PHP file to do processing. I think I would prefer to do it the way they did,
+but overall it helped make me more familiar with using PHP and HTML individually and making the
+two work together.
+
+In the process of going through this assignment, I went back to many of the previous videos and
+refreshed myself on how to correctly use the syntaxes of PHP and HTML.
+

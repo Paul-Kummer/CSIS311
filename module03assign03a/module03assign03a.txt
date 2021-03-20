@@ -1,0 +1,21 @@
+Paul Kummer
+CSIS 311
+9/28/20
+Module 2: Assignment 3a
+Time to completion: hrs
+
+[Work Log]
+10/03/20 , (Start: 2:00PM) (End: 5:00PM) 2hrs
+10/04/20 , (Start: 10:15AM) (End: 5:30PM) 7hrs
+
+[Assignment Summary]
+I was struggling with idea of having the php within the html initially. The challenge was
+switching back and forth between html and php, and knowing how to correctly output from the
+php. I also found myself frequently forgetting to put semicolons in, making my script not run
+correctly. The concatenation of the input history was working correctly at one point, then I
+changed something, and it quit working. The debugging is where most of the hours into this
+project came from. Turns out spaces before and after my comma were messing with concatenation.
+
+*UPDATE*
+I modified the function that checks the guess to also call the add guess history. By doing this
+I can add whether the guess was high or low to the guess history.

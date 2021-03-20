@@ -1,0 +1,17 @@
+Paul Kummer
+CSIS 311
+9/28/20
+Module 3: Assignment 3c
+Time to completion:  hrs
+
+[Work Log]
+10/25/20: 11:00AM-12:30PM 1.5hrs
+
+[Assignment Summary]
+I learned that sessions make the code a lot easier to understand. You don't need
+to try to keep track of whether a variable is current or a recently submitted value.
+It just made everything make a lot more sense. I think if I was to spend more time on
+this assignment, I would make vars to hold session vars, so There wasn't $_SESSION 
+everywhere in the code. Then I would make a function to place everything into the 
+super global session vars. All things considered, it was pretty simple to convert my
+old script with sessions instead.

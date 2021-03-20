@@ -1,0 +1,142 @@
+* 
+{
+	box-sizing: border-box;
+}
+
+body
+{
+	background-color:rgb(206, 212, 221);
+}
+
+h1
+{
+	text-align: center;
+}
+
+div.columnHistory p
+{
+	padding-left: 20px;
+}
+
+div.columnHistory h1
+{
+	font-size: x-large;
+}
+
+div.selectBox h1
+{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: large;
+}
+
+#textField
+{
+	padding: 10px, 10px;
+	width: 100%;
+	height: 75%;
+	line-break: normal;
+	overflow-y: scroll;
+	text-align: left;
+}
+
+.selectBox form
+{
+	height: 85%;
+	width: 90%;
+	padding: 50px 100px;
+}
+
+.header 
+{
+	background-color: lightsteelblue;
+	padding: 1px;
+	text-align: center;
+	height: 100px;
+}
+
+.navLinks form
+{
+	height: 100%;
+	width: 100%;
+	padding: 0px 30px;
+}
+
+.navLinks input[type=submit], button[type=navButton]
+{
+	display: block;
+	float: left;
+	background-color: rgb(44, 58, 66);
+	border: none;
+	color: skyblue;
+	padding: 0px 30px;
+	text-decoration: none;
+	margin: 0px 0px;
+	cursor: pointer;
+	height: 100%;
+}
+
+.navLinks input[type=submit]:hover, button[type=navButton]:hover
+{
+	background-color: greenyellow;
+	color: rgb(44, 58, 66);
+}
+
+.selectBox
+{
+	background-color: white;
+	float: left;
+	width: 45%;
+	height: 500px;
+	border-style: ridge;
+}
+
+.navLinks
+{
+	margin-top: 1%;
+	overflow: hidden;
+	background-color: black;
+	float: bottom;
+	width: 100%;
+	height: 35px;
+	border-style: none;
+}
+
+.columnHistory
+{
+	background-color: lightgrey;
+	float: right;
+	width: 55%;
+	height: 500px;
+	border-style: inset;
+	display: block;
+	overflow: auto;
+	font-size: 100%;
+}
+  
+/* Clear floats after the columns */
+.row:after 
+{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+  
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 600px)
+{
+	.selectBox 
+	{
+		width: 100%;
+	}
+
+	.columnHistory
+	{
+		width: 100%;
+	}
+
+	.navLinks
+	{
+		width: 100%
+	}
+}

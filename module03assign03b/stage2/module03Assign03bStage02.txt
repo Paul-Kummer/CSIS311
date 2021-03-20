@@ -1,0 +1,14 @@
+Paul Kummer
+CSIS 311
+9/28/20
+Module 3: Assignment 3b Stage2
+Time to completion: hrs
+
+[Work Log]
+10/11/20: (Start - 7:30PM) (End - 10:30PM) 3hrs
+
+[Assignment Summary]
+I've learned that debugging is very time consuming. There isn't anything telling me where the code
+went wrong. Therefore, I end up changing some code that is working and breaking other parts. I learned
+that I needed a relative path for my include, otherwise the functions would not work. Also, I found out
+that using buttons on a form works best when trying to run code for PHP.
