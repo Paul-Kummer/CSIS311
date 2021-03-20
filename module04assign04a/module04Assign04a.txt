@@ -1,0 +1,17 @@
+Paul Kummer
+CSIS 311
+11/18/20
+Module 4: Assignment 4a
+Time to completion:  4hrs
+
+[Work Log]
+11/18/20 : 4hrs
+
+[Assignment Summary]
+This assignment was a bunch of review for me mostly since I took the databases class
+a few semesters ago. It was a good review, especially since I mostly worked with SQL Server
+instead of MySQL. Additionally, I had made a python program that interacted with a personal
+MySQL database for a personal project, so I had some additional experience with interacting
+with databases programatically. I had some issues with the output of my tables being 
+displayed correctly, but it appears all the data is in the database correctly, so I'm not 
+sure what the problem is.

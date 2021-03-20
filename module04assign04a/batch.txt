@@ -1,0 +1,5 @@
+use paul-kummer_menagerie;
+show tables;
+select * from pet;
+select * from event;
+select distinct species from pet;

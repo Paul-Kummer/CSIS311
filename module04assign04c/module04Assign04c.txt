@@ -1,0 +1,31 @@
+Paul Kummer
+CSIS 311
+11/20/20
+Module 4: Assignment 4c
+Time to completion:  estimate of 16hrs
+
+[Work Log]
+11/19/20 : very long time
+11/20/20 : all day
+
+[Assignment Summary]
+This assignment allowed me to learn how to make php interact with mysql in a predictable
+way. I spent a lot of time tweaking the forms and layout to get it just the way I wanted.
+I really enjoyed making a second css file for a dark mode; It's a lot easier on the eyes.
+I had to review the persistent data with sessions, as I was getting some information lost.
+If I had to do this assignment over again, I may change the way data is handled and maybe
+make new pages for each form, but I'm not sure. The large switch statements seem a little
+bit too much as well. Overall, I enjoyed this assigment, which is why I spent so much time on it 
+looking up how to do things and make things work the way I wanted, which wasn't required for
+the assignment.
+
+Additionaly, I learned more about mySQL, and how to make stored procedures, which is very
+similar to sql server. I ended up installing mysql workbench and connecting to puff to
+interact with the database. This allowed me to work with the table more fluidly than using
+a command line on putty and gave me better visuals of what I was working on. It also, allows
+the changing of table information really easily with auto generated scripts.
+
+
+*bugs, I do not check the input for valid input. This leaves it open to sql
+	injection, but since I'm already allowing sql entries, it don't see it
+	being a big issue.

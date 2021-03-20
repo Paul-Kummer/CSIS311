@@ -1,0 +1,13 @@
+Paul Kummer
+CSIS 311
+11/18/20
+Module 4: Assignment 4b
+Time to completion:  
+
+[Work Log]
+11/18/20 : 2hrs
+
+[Assignment Summary]
+I learned how to use the auto_increment feature in mysql. I learned how to use it 
+once before, but I got a refresher. I also should have used two columns for difficulty
+instead of one. Now the data isn't shown completely accurate.
