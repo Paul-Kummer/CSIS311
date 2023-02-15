@@ -1,0 +1,38 @@
+Paul Kummer
+CSIS 311
+12/14/20
+Module 5: Assignment 5a
+Time to completion:  More time than all of the other assignments combined
+	I've worked on it for about two weeks.
+
+[Work Log]
+I lost track, approximatly two weeks every day. Some days, most of the day.
+
+[Assignment Summary]
+I learned that I should have chosen an easier project. I thought it may be a little ambitious,
+but I've managed to get through all the problems up until this project. Now I'm out of time and
+must leave it unfinished. I created a working version, but it does not include all the features I wanted,
+so it is essentially a different game. 
+
+I learned how to turn SVGs into clickable buttons on a form that can pass data; how to use OOP in php;
+how to manipulate more things with CSS; and most importantly, before writing any code, plan out how
+to make the code. I should have worked on pieces of this code individually and got them working before
+implementing new portions of code. The way I went about this caused me to write code in different places
+that can do similar/exact things of other code. This caused excessive code, and some of it was just patching
+code that should have been written differently. I think this project gave me a valuable lesson on failure.
+
+Despite having to remove about half of my code and simplifying it down to its basic roots, it is a playable
+game that is kind of fun. I found most of my problems, in the process of removing a lot of code, but at this
+point it will take too much time to reimplement the special features
+
+Three major problems that were causing the program to fail were
+1) I had a terenary statement assigning the opposite value than what I wanted
+2) I was passing a string into a function that required a variable to be passed by reference
+3) I spelt $_SESSSION instead of $_SESSION
+
+There were many other errors that were coded and removed throughout the process of discovering the major errors.
+I used the database to log the code as it was executing to pinpoint the causes of failure.
+
+
+*bugs, I did have the computer player showing me one of their cards once, and I'm not sure how that happend
+	since every card the computer takes in their hand has a method called hideCard() executed on that card.

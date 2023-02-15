@@ -1,0 +1,41 @@
+I would like to choose Şeptică as my card game. The rules that I know may vary compared to other versions. However, 
+I will be going off the rules as explained to me by my wife, who is from Romania. Traditionally, they would use a 
+Bohemian deck of cards, but I will adjust it to use a standard card deck that most are familiar with in the U.S.
+
+To start, a 32 card deck will be shuffled and 5 cards will be distributed to two players; One player will be the 
+computer. Then the remaining main deck will go in the middle of the table and the top card will be flipped over and 
+set aside on the playing deck. Then the first player will play a compatible card on top of the card on the playing 
+deck, face up. If a player doesn't have a compatible playing card, they must draw a card from the top of the main deck. 
+If there are no remaining cards on the main deck, all cards from the playing deck, except the current card in play can 
+be reshuffled and transformed into the main deck. This process will continue until a player has no cards remaining, 
+meaning they won the round.
+
+The cards that are considered compatible with the current card on top of the playing deck are cards the match it's suit 
+or value. However, there are three cards that have special abilities. The Ace will skip the next players turn unless they 
+play an Ace as well. The Ace must be played on the same suit or another Ace. The Jack makes the next player take two 
+cards from the main deck, unless they have a Jack to play themselves. If a player plays a Jack on top of another Jack, 
+then the next player will have to take an additional 2 cards from the main deck and the current player will take none. 
+This can be done up to a total of four times, which could result in a player taking 8 cards. Jacks must be played on a 
+card of the same suit or on another Jack. The last special card is the 7, which allows the player to change the suit to 
+any of the suits. They can play the 7, then declare the suit to be clubs, spades, diamonds, or hearts.
+
+
+Total Cards : 7, 8, 9, 10, J, Q, K, A all 4 suits
+Computer Hand Start: 5 random cards
+Player Hand Start: 5 random cards
+
+//vars
+mainDeck[32]; cards that players draw from
+discardDeck; holds cards that have been played
+curCardSuit; what the current card's suit is that is to be played on
+curCardValue; what the current card's value is that is to be played on
+skipPlayer = false; trigger after and Ace is played, but still give the other player an opportunity to play an ace
+cardsToAdd = 0; an accumulator for card penalty to be applied to a player unless they play a jack
+
+//functions
+shuffleDeck() randomize the deck
+dealCards() give players cards
+playCard() player attempts to put card down, also checks for special cases
+pcCardSelect() pc attempts to select a card to play
+reloadDeck() return discarded cards to the main deck and shuffle them
+changeSuit(&curCardSuit) changes the current card suit when a 7 is played
